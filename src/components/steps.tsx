@@ -1,5 +1,6 @@
 import { Navbar } from "./navbar"
 import { useNavigate } from 'react-router-dom'
+import image from '../assets/app.jpg'
 
 export const Steps = () => {
   const navigate = useNavigate()
@@ -540,7 +541,7 @@ export const Steps = () => {
             </div>
           </div>
           <div className="w-1/4 h-full flex justify-center items-center pt-100">
-            <img src="src\assets\app.jpg" className="w-full h-full" alt="" />
+            <img src={image} className="w-full h-full" alt="" />
           </div>
         </div>
 

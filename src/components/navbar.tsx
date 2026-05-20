@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import image from '../assets/logo.png'
 
 
 export const Navbar = () => {
@@ -14,7 +15,7 @@ export const Navbar = () => {
     return (
         <div className='w-full h-25  bg-gray-900  backdrop-blur-lg justify-between  flex items-center  text-white font-bold p-5 border-blue-50  flex-row '>
           <div className='w-25 h-25  object-center mt-auto rounded-full'>
-            <img className='w-fit h-fit overflow-hidden object-center rounded-full' src="src\assets\logo.png" alt="" />
+            <img className='w-fit h-fit overflow-hidden object-center rounded-full' src={image} alt="" />
           </div>
 
         <div className='flex justify-center items-center'>
