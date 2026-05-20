@@ -61,7 +61,7 @@ export const Steps = () => {
               </ul>
             </div>
 
-            <div className="w-1/3 h-fit  p-5 flex flex-col gap-5">
+            <div className="w-fit h-fit  p-5 flex flex-col gap-5 border-2 border-black rounded-3xl">
               <h1 className="text-4xl font-semibold">Step 3.2: Draw Base Layout</h1>
               <h1>Recommended dimensions:</h1>
               <ul className="pl-15 flex flex-col gap-3">
@@ -77,7 +77,7 @@ export const Steps = () => {
               </ul>
             </div>
 
-            <div className="w-1/3 h-full  p-5 flex flex-col gap-5">
+            <div className="w-fit h-full  p-5 flex flex-col gap-5 border-2 border-black rounded-3xl">
               <h1 className="text-4xl font-semibold">Step 3.3: Cut the Sunboard</h1>
               <h1>Using cutter:</h1>
               <ul className="pl-15 flex flex-col gap-3">
@@ -93,8 +93,7 @@ export const Steps = () => {
 
           <div className="p-10 flex flex-row gap-5">
 
-
-            <div className="w-1/3 h-full  p-5 flex flex-col gap-5">
+            <div className="w-fit h-full  p-5 flex flex-col gap-5 border-2 border-black rounded-3xl">
               <h1 className="text-4xl font-semibold">Step 3.4: Create Motor Mounts</h1>
               <h1>Use small sunboard strips:</h1>
               <ul className="pl-15 flex flex-col gap-3">
@@ -105,7 +104,7 @@ export const Steps = () => {
               </ul>
             </div>
 
-            <div className="w-1/3 h-full  p-5 flex flex-col gap-5">
+            <div className="w-fit h-full  p-5 flex flex-col gap-5 border-2 border-black rounded-3xl">
               <h1 className="text-4xl font-semibold">Step 3.5: Fix Motors</h1>
               <h1>Attach motors using:</h1>
               <ul className="pl-15 flex flex-col gap-3">
@@ -115,11 +114,9 @@ export const Steps = () => {
               <ul className="pl-15 flex flex-col ">
                 <li>Attach wheels</li>
               </ul>
-
             </div>
 
-
-            <div className="w-1/3 h-full  p-5 flex flex-col gap-5">
+            <div className="w-fit h-full  p-5 flex flex-col gap-5 border-2 border-black rounded-3xl">
               <h1 className="text-4xl font-semibold">Step 3.6: Mount Electronics</h1>
               <h1>Fix:</h1>
               <ul className="pl-15 flex flex-col gap-3">
@@ -128,10 +125,13 @@ export const Steps = () => {
                 <li>Battery holder</li>
               </ul>
             </div>
+
+
           </div>
 
-          <div className="p-10 flex flex-row gap-15 justify-center ">
-            <div className="w-1/3 h-full  p-5 flex  gap-5   flex-col justify-center">
+          <div className="p-10 flex flex-row gap-15 justify-center border-2 border-black rounded-3xl ">
+            
+            <div className="w-fit h-full  p-5 flex  gap-5   flex-col justify-center">
               <h1 className="text-4xl font-semibold  ">Step 3.7: Attach Ultrasonic Sensor</h1>
               <h1>Fix sensor at front:</h1>
               <ul className="pl-15 flex flex-col gap-3">
@@ -147,7 +147,7 @@ export const Steps = () => {
 
         <div className="w-fit h-full p-10 bg-yellow-300 flex  justify-center flex-col gap-25 rounded-3xl">
           <h1 className="text-4xl flex justify-center flex-row font-bold "> Step 4: ASSEMBLE MECHANICAL PARTS</h1>
-          <div className="flex-row flex gap-20 justify-center ">
+          <div className="flex-row flex gap-20 justify-center border-2 border-black rounded-3xl p-10">
             <div className="text-2xl gap-5 flex flex-col">
               <h1>Fix Motors</h1>
               <ul className="pl-10 flex-col gap-3 flex">

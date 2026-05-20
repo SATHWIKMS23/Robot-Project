@@ -15,11 +15,11 @@ function App() {
 
 
   return (
-    <div className='w-full h-full bg-gray-950  backdrop-blur-3xl flex flex-col items-center gap-75 scroll-auto'>
+    <div className='w-full min-h-screen  bg-gray-950  backdrop-blur-3xl flex flex-col items-center gap-75 scroll-auto '>
       <Navbar />
 
 
-      <div className=' text-white text-3xl flex-col flex  justify-between  items-center gap-75 '>
+      <div className=' text-white text-3xl flex-col flex  justify-between  items-center gap-50 '>
 
         <div className=' flex justify-center items-center  rounded-5xl  w-350 h-50 '>
           <img src="" className='w-fit h-fit object-center overflow-hidden' alt="" />
