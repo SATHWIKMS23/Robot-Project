@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <div className='w-full h-screen bg-gray-950  backdrop-blur-3xl flex flex-col items-center gap-75 scroll-auto'>
+    <div className='w-full h-full bg-gray-950  backdrop-blur-3xl flex flex-col items-center gap-75 scroll-auto'>
       <Navbar />
 
 
